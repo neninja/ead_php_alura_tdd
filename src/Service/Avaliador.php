@@ -1,6 +1,7 @@
 <?php
 
-namespace Alura\Leilao\Model\Service;
+namespace Alura\Leilao\Service;
+
 use Alura\Leilao\Model\Leilao;
 
 class Avaliador
@@ -18,5 +19,4 @@ class Avaliador
     {
         return $this->maiorValor;
     }
-
 }
