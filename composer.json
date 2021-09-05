@@ -4,6 +4,12 @@
             "Alura\\Leilao\\": "src/"
         }
     },
+    "scripts": {
+        "test": "phpunit --colors=always",
+        "ci": [
+            "phpunit --testdox-text=ci.txt"
+        ]
+    },
     "require-dev": {
         "phpunit/phpunit": "8"
     }

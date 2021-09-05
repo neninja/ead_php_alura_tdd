@@ -1,5 +1,7 @@
 # ead_php_alura_tdd
 
+![Tests](https://github.com/nenitf/ead_php_alura_tdd/actions/workflows/tests.yml/badge.svg)
+
 > Projeto referente a [este](https://cursos.alura.com.br/course/phpunit-tdd) curso.
 
 ## Disclaimer
@@ -35,4 +37,16 @@ vim README.md -c "call NN_GitAula2()" -c qa!
 
 ```sh
 composer i
+```
+
+## Teste
+
+```sh
+composer test
+```
+
+## CI
+
+```sh
+composer ci
 ```
